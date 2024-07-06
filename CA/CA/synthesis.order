@@ -1,0 +1,5 @@
+i<>.\src\main.vhd
+i<>.\src\TestBench\Reset_Behavior.vhd
+i<>.\src\TestBench\Address _Translation.vhd
+i<>.\src\TestBench\Page_Fault_Handling.vhd
+i<>.\src\TestBench\LFU_Policy.vhd

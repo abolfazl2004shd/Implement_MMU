@@ -1,0 +1,12 @@
+31
+~E 1 "../src/TestBench/Address _Translation.vhd" 7 Address_Translation
+~A 1 "../src/TestBench/Address _Translation.vhd" 10 TB_ARCHITECTURE
+~E 1 "../src/TestBench/LFU_Policy.vhd" 7 LFU_Policy
+~A 1 "../src/TestBench/LFU_Policy.vhd" 10 TB_ARCHITECTURE
+~E 1 "../src/main.vhd" 5 MMU
+~A 1 "../src/main.vhd" 15 Behavioral
+~E 1 "../src/TestBench/Page_Fault_Handling.vhd" 7 Page_Fault_Handling
+~A 1 "../src/TestBench/Page_Fault_Handling.vhd" 10 TB_ARCHITECTURE
+~E 1 "../src/TestBench/Reset_Behavior.vhd" 7 Reset_Behavior
+~A 1 "../src/TestBench/Reset_Behavior.vhd" 10 TB_ARCHITECTURE
+~C 1 "../src/TestBench/Page_Fault_Handling.vhd" 83 testbench_for_mmu

@@ -1,0 +1,1 @@
+-w -erf D:/FinalProject/CA/CA/compile/CA.erf -d D:/FinalProject/CA/CA/compile -s D:/FinalProject/CA/library.cfg -j D:/FinalProject/CA/CA/projlib.cfg -work CA -O3 -e 100 -work CA -2002 D:/FinalProject/CA/CA/src/TestBench/Page_Fault_Handling.vhd 

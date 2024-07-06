@@ -1,0 +1,81 @@
+timestamp=1720279447002
+
+[~A]
+ModifyID=31
+Version=74
+
+[~MFT]
+0=14|0CA.mgf|46627|32638
+1=4|1CA.mgf|79352|67971
+3=2|3CA.mgf|19002|14685
+
+[address_translation]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/Address _Translation.vhd|10|1*60831
+BinW64/tb_architecture=3*14486
+I=0*11118
+I/tb_architecture=I/TB_ARCHITECTURE 0*32541
+M=11|2|ve8|1720085170223|../src/TestBench/Address _Translation.vhd|0*10758*0x083c067af866200516b42a34c843990d8206bae4|0*11004*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|ve8|1720208838379|../src/TestBench/Address _Translation.vhd|0*31352*0x080558a5caf08a065efceb882ae6533b8d600400|0*32408*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/Address _Translation.vhd|7
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|828a93d8f9871a879e4b08aebb1b1e0a61a6d1ff4a5fff54f80d8b25e5b552e5a5d57916c1d366708a88cc6145e93ba1
+Version/tb_architecture=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534beaf8c8ea4df6f7beb7f0e3c95b4c93895c
+
+[lfu_policy]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/LFU_Policy.vhd|10|1*71276
+BinW64/tb_architecture=3*15743
+I=0*5385
+I/tb_architecture=I/TB_ARCHITECTURE 0*43604
+M=11|2|ve8|1720085159613|../src/TestBench/LFU_Policy.vhd|0*5081*0x8111c2667419d8c06524d1d70935f1089a2a8e74|0*5290*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|ve8|1720210449044|../src/TestBench/LFU_Policy.vhd|0*41053*0x1c7fc81293f8e99242bcc450a35fb332f0be62b0|0*43490*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/LFU_Policy.vhd|7
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|8afaa27842f4b17bddba4c13b97a6d28492c93a63826557bde8660d2d7ddf99446f1ab5ad0b02b5c79ea0704d07bd5f7
+Version/tb_architecture=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea7b407f87476503edd45e4e86f35b3e92
+
+[mmu]
+A/behavioral=A/Behavioral 21|../src/main.vhd|15|1*74556
+BinW64/behavioral=3*16964
+I=0*2035
+I/behavioral=I/Behavioral 0*44429
+M=11|2|ve8|1720082411541|../src/main.vhd|0*1617*0x2b15e7ba52906083ce93aff1f79e686cd8b1fb15|0*1963*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|ve8|1720279160066|../src/main.vhd|0*2269*0x840290979c5081f871aea84836a3f4799978d3d7|0*4624*0x20116f55b147878295aeff36dce7fc50
+R=../src/main.vhd|5
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|99f46e1e654d664d13519d88f42fbdf8777511f60c4568d13d220e1c879f84b3
+Version/behavioral=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff41cefd0cc1984ee5e9be52c077cfbd5a4
+
+[page_fault_handling]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/Page_Fault_Handling.vhd|10|1*77389
+BinW64/tb_architecture=3*19002
+I=0*8256
+I/tb_architecture=I/TB_ARCHITECTURE 0*45903
+M=11|2|ve8|1720085166475|../src/TestBench/Page_Fault_Handling.vhd|0*7898*0x2d89574d73e70e26a6a7d5fcc7c2cfce8a36dba8|0*8143*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|ve8|1720279446942|../src/TestBench/Page_Fault_Handling.vhd|0*44674*0xb39b1dfdb49aee85e267a7e14fbde2613216d29f|0*45771*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/Page_Fault_Handling.vhd|7
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|2946c3a084ceccdfca4df1dc37190c43b75d96dfcf300910f92d9a6732cf46dc7d8867226af217750808cdb952552c98
+Version/tb_architecture=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534beae29dd45d4fee42dbc3b81c6d82cae992
+
+[reset_behavior]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/Reset_Behavior.vhd|10|1*39337
+BinW64/tb_architecture=3*9572
+I=0*13904
+I/tb_architecture=I/TB_ARCHITECTURE 0*22765
+M=11|2|ve8|1720085171868|../src/TestBench/Reset_Behavior.vhd|0*13576*0xf6a61ec8209c5987d00ed7e36bef39f3f50e64aa|0*13801*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|ve8|1720206200124|../src/TestBench/Reset_Behavior.vhd|0*18922*0xf1fb02df46a2081bf7ac19681731a41c89e8c761|0*19767*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/Reset_Behavior.vhd|7
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|c4b2aafb3bd9a5bc7411cd742e54f59f8cf8109b104602b3c34b90cd4c002445a07a586a6372f8b03100410476d2799b
+Version/tb_architecture=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea32efdd4fd62e3eabdff3a95b7c627c5a
+
+[testbench_for_mmu]
+Configures=Page_Fault_Handling.TB_ARCHITECTURE
+E=1*79352
+I=0*46627
+M=2|2|ve8|1720279446962|../src/TestBench/Page_Fault_Handling.vhd|0*46201*0xb76a668a45b152b292d0b567b56c06825c809e10|0*46494*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/Page_Fault_Handling.vhd|83
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e5ed71942fe32881ab9081e58e8dcaf58cd36461701bed6f86ef5184d368781c62
+
+[~U]
+address_translation=Address_Translation 11|0*10614|
+lfu_policy=LFU_Policy 11|0*4955|
+mmu=MMU 11|0*1390|
+page_fault_handling=Page_Fault_Handling 11|0*7754|
+reset_behavior=Reset_Behavior 11|0*13442|
+testbench_for_mmu=TESTBENCH_FOR_mmu 2||

@@ -1,0 +1,54 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=CA
+
+[Library]
+CA=.\CA\CA.lib
+
+[$LibMap$]
+CA=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[Groups]
+TestBench=1
+
+[Files]
+/main.vhd=-1
+TestBench/Reset_Behavior.vhd=-1
+TestBench/Reset_Behavior_runtest.do=-1
+TestBench/Address _Translation.vhd=-1
+TestBench/Address _Translation_runtest.do=-1
+TestBench/Page_Fault_Handling.vhd=-1
+TestBench/Page_Fault_Handling_runtest.do=-1
+TestBench/LFU_Policy.vhd=-1
+TestBench/LFU_Policy_runtest.do=-1
+
+[Files.Data]
+.\src\main.vhd=VHDL Source Code
+.\src\TestBench\Reset_Behavior.vhd=VHDL Test Bench
+.\src\TestBench\Reset_Behavior_runtest.do=Macro
+
+.\src\TestBench\Address _Translation.vhd=VHDL Test Bench
+.\src\TestBench\Address _Translation_runtest.do=Macro
+.\src\TestBench\Page_Fault_Handling.vhd=VHDL Test Bench
+.\src\TestBench\Page_Fault_Handling_runtest.do=Macro
+.\src\TestBench\LFU_Policy.vhd=VHDL Test Bench
+.\src\TestBench\LFU_Policy_runtest.do=Macro
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=address_translation|TB_ARCHITECTURE|0 lfu_policy|TB_ARCHITECTURE|0 page_fault_handling|TB_ARCHITECTURE|0 reset_behavior|TB_ARCHITECTURE|0    
+ShowHide=ShowTopLevel
+Selected=

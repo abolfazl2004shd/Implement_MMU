@@ -1,0 +1,1748 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+LFU_Policy LFU_Policy TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+acom -O3 -e 100 -work CA -2002  $dsn/src/main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/FinalProject/CA/CA/src/main.vhd
+# Compile Entity "MMU"
+# Compile Architecture "Behavioral" of Entity "MMU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6153 kB (elbread=427 elab2=5587 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\FinalProject\CA\CA\src\wave.asdb
+#  06:49 E.U, O?E?, 16 E?? 1403
+#  Simulation has been initialized
+run 20 ns
+# KERNEL: stopped at time: 20 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: stopped at time: 40 ns
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+Address_Translation Address_Translation TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6147 kB (elbread=427 elab2=5581 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\FinalProject\CA\CA\src\wave.asdb
+#  06:49 E.U, O?E?, 16 E?? 1403
+#  Simulation has been initialized
+run 20 ns
+# KERNEL: stopped at time: 20 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: stopped at time: 40 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# EXECUTION:: ERROR  : Page fault when expected
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /Address_Translation,  Process: stim_proc.
+# EXECUTION:: ERROR  : Incorrect physical address
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /Address_Translation,  Process: stim_proc.
+# KERNEL: stopped at time: 60 ns
+run 20 ns
+# KERNEL: stopped at time: 80 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Address_Translation Address_Translation TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6147 kB (elbread=427 elab2=5581 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\FinalProject\CA\CA\src\wave.asdb
+#  06:50 E.U, O?E?, 16 E?? 1403
+#  Simulation has been initialized
+run 20 ns
+# KERNEL: stopped at time: 20 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: stopped at time: 40 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# EXECUTION:: ERROR  : Page fault when expected
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /Address_Translation,  Process: stim_proc.
+# EXECUTION:: ERROR  : Incorrect physical address
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /Address_Translation,  Process: stim_proc.
+# KERNEL: stopped at time: 60 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6147 kB (elbread=427 elab2=5581 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\FinalProject\CA\CA\src\wave.asdb
+#  06:50 E.U, O?E?, 16 E?? 1403
+#  Simulation has been initialized
+run 20 ns
+# KERNEL: stopped at time: 20 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: stopped at time: 40 ns
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+Reset_Behavior Reset_Behavior TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6146 kB (elbread=427 elab2=5580 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\FinalProject\CA\CA\src\wave.asdb
+#  06:51 E.U, O?E?, 16 E?? 1403
+#  Simulation has been initialized
+run 20 ns
+# KERNEL: stopped at time: 20 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: stopped at time: 40 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: stopped at time: 60 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 70 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 70 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 70 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 70 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: stopped at time: 80 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 90 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 90 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 90 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 90 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: stopped at time: 100 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 110 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 110 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 110 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 110 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: stopped at time: 120 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 130 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 130 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 130 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 130 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: stopped at time: 140 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 150 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 150 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 150 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 150 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: stopped at time: 160 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Reset_Behavior Reset_Behavior TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6146 kB (elbread=427 elab2=5580 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\FinalProject\CA\CA\src\wave.asdb
+#  06:51 E.U, O?E?, 16 E?? 1403
+#  Simulation has been initialized
+run 20 ns
+# KERNEL: stopped at time: 20 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Reset_Behavior/UUT,  Process: line__39.
+# KERNEL: stopped at time: 40 ns
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+Page_Fault_Handling Page_Fault_Handling TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6147 kB (elbread=427 elab2=5581 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\FinalProject\CA\CA\src\wave.asdb
+#  06:52 E.U, O?E?, 16 E?? 1403
+#  Simulation has been initialized
+run 20 ns
+# KERNEL: stopped at time: 20 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: stopped at time: 40 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# EXECUTION:: ERROR  : Page fault not detected
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /Page_Fault_Handling,  Process: stim_proc.
+# KERNEL: stopped at time: 60 ns
+run 20 ns
+# KERNEL: stopped at time: 80 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Page_Fault_Handling Page_Fault_Handling TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6147 kB (elbread=427 elab2=5581 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\FinalProject\CA\CA\src\wave.asdb
+#  06:53 E.U, O?E?, 16 E?? 1403
+#  Simulation has been initialized
+run 20 ns
+# KERNEL: stopped at time: 20 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Page_Fault_Handling Page_Fault_Handling TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+acom -O3 -e 100 -work CA -2002  $dsn/src/TestBench/Page_Fault_Handling.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/FinalProject/CA/CA/src/TestBench/Page_Fault_Handling.vhd
+# Compile Entity "Page_Fault_Handling"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "Page_Fault_Handling"
+# Compile Configuration "TESTBENCH_FOR_mmu"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6147 kB (elbread=427 elab2=5581 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\FinalProject\CA\CA\src\wave.asdb
+#  06:54 E.U, O?E?, 16 E?? 1403
+#  Simulation has been initialized
+run 20 ns
+# KERNEL: stopped at time: 20 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: stopped at time: 40 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# EXECUTION:: ERROR  : Page fault not detected
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /Page_Fault_Handling,  Process: stim_proc.
+# KERNEL: stopped at time: 60 ns
+run 20 ns
+# KERNEL: stopped at time: 80 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Page_Fault_Handling Page_Fault_Handling TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6147 kB (elbread=427 elab2=5581 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\FinalProject\CA\CA\src\wave.asdb
+#  06:55 E.U, O?E?, 16 E?? 1403
+#  Simulation has been initialized
+run 640 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# EXECUTION:: ERROR  : Page fault not detected
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /Page_Fault_Handling,  Process: stim_proc.
+# KERNEL: stopped at time: 640 ns
+run 640 ns
+# KERNEL: stopped at time: 1280 ns
+run 640 ns
+# KERNEL: stopped at time: 1920 ns
+run 640 ns
+# KERNEL: stopped at time: 2560 ns
+run 640 ns
+# KERNEL: stopped at time: 3200 ns
+run 640 ns
+# KERNEL: stopped at time: 3840 ns
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+LFU_Policy LFU_Policy TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6153 kB (elbread=427 elab2=5587 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\FinalProject\CA\CA\src\wave.asdb
+#  06:55 E.U, O?E?, 16 E?? 1403
+#  Simulation has been initialized
+run 640 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: stopped at time: 640 ns
+run 640 ns
+# KERNEL: stopped at time: 1280 ns
+run 640 ns
+# KERNEL: stopped at time: 1920 ns
+run 640 ns
+# KERNEL: stopped at time: 2560 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+LFU_Policy LFU_Policy TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6153 kB (elbread=427 elab2=5587 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\FinalProject\CA\CA\src\wave.asdb
+#  06:55 E.U, O?E?, 16 E?? 1403
+#  Simulation has been initialized
+run 650ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: stopped at time: 650 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+LFU_Policy LFU_Policy TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6153 kB (elbread=427 elab2=5587 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\FinalProject\CA\CA\src\wave.asdb
+#  06:55 E.U, O?E?, 16 E?? 1403
+#  Simulation has been initialized
+run 660ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: stopped at time: 660 ns
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6146 kB (elbread=427 elab2=5580 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\FinalProject\CA\CA\src\wave.asdb
+#  07:09 E.U, O?E?, 16 E?? 1403
+#  Simulation has been initialized
+# KERNEL: stopped at time: 20 ns
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+Address_Translation Address_Translation TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6147 kB (elbread=427 elab2=5581 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\FinalProject\CA\CA\src\wave.asdb
+#  07:09 E.U, O?E?, 16 E?? 1403
+#  Simulation has been initialized
+run 20 ns
+# KERNEL: stopped at time: 20 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Address_Translation/UUT,  Process: line__39.
+# KERNEL: stopped at time: 40 ns
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+Page_Fault_Handling Page_Fault_Handling TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6147 kB (elbread=427 elab2=5581 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\FinalProject\CA\CA\src\wave.asdb
+#  07:11 E.U, O?E?, 16 E?? 1403
+#  Simulation has been initialized
+run 20 ns
+# KERNEL: stopped at time: 20 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: stopped at time: 40 ns
+run 20 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /Page_Fault_Handling/UUT,  Process: line__39.
+# EXECUTION:: ERROR  : Page fault not detected
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /Page_Fault_Handling,  Process: stim_proc.
+# KERNEL: stopped at time: 60 ns
+run 20 ns
+# KERNEL: stopped at time: 80 ns
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+LFU_Policy LFU_Policy TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6153 kB (elbread=427 elab2=5587 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\FinalProject\CA\CA\src\wave.asdb
+#  07:16 E.U, O?E?, 16 E?? 1403
+#  Simulation has been initialized
+run 660 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /LFU_Policy/UUT,  Process: line__39.
+# KERNEL: stopped at time: 660 ns
+run 20 ns
+# KERNEL: stopped at time: 680 ns
+run 20 ns
+# KERNEL: stopped at time: 700 ns
+run 20 ns
+# KERNEL: stopped at time: 720 ns
+endsim
+# VSIM: Simulation has finished.

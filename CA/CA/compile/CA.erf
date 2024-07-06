@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: D:/FinalProject/CA/CA/src/TestBench/Page_Fault_Handling.vhd" 
+MESSAGE "Compile Entity "Page_Fault_Handling"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "Page_Fault_Handling"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_mmu"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]" 
